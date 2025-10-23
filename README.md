@@ -1,46 +1,59 @@
-# 📝 ToDo App
+# 📝 Flutter ToDo App
 
-A beautifully designed **Flutter ToDo app** with task management features — including **priority levels, time tracking, and a clean modern UI**.
+A simple and elegant **Flutter ToDo application** designed for daily task management.  
+This app allows users to **add, view, and manage their ToDo tasks** with clean UI and smooth functionality.
 
 ---
 
 ## 📱 Screenshots
 
-| Add Task | Task List | Task Details |
-|-----------|------------|--------------|
-| ![Add Screen](screenshots/add_task.png) | ![List Screen](screenshots/task_list.png) | ![Details Screen](screenshots/task_details.png) |
+### 🏠 Home Screen
+> Manage your ToDo tasks with a simple and modern layout.
+
+![Home Screen](https://raw.githubusercontent.com/vikashbaria/Todo-App-Project-By-Jawan-Pakistan/refs/heads/master/Screenshot_1761218256.png)
 
 ---
 
-## 🎬 App Preview (Video)
+### ➕ Add Task Screen
+> Add new tasks with title, description, time range, and priority level.
 
-[![Watch the video](screenshots/video_thumbnail.png)](https://youtu.be/your_video_link_here)
+![Add Task Screen](https://raw.githubusercontent.com/vikashbaria/Todo-App-Project-By-Jawan-Pakistan/refs/heads/master/Screenshot_1761218260.png)
+
+---
+
+## 🎬 Demo Video
+
+🎥 [Watch Full Demo on YouTube](https://youtu.be/your_video_link_here)
 
 ---
 
 ## ✨ Features
 
-✅ Add, edit, and delete tasks  
-✅ Select priority: Low, Medium, or High  
-✅ Set time range (From – To) for each task  
-✅ Automatically saves entered data  
-✅ Responsive, elegant Flutter UI design  
+- 🧾 Add new ToDo tasks  
+- 📋 View all added tasks instantly  
+- ⏰ Set start and end time  
+- 🏷️ Add description and title  
+- 🚦 Select task priority (Low, Medium, High)  
+- 🧠 Intuitive UI built using Flutter  
+- 💾 Local data handling for quick access  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Flutter  
-- **Language:** Dart  
-- **State Management:** setState()  
-- **Local Storage:** In-memory (temporary)  
-- **UI Design:** Material 3  
+| Component | Technology |
+|------------|-------------|
+| **Framework** | Flutter |
+| **Language** | Dart |
+| **UI Design** | Material 3 |
+| **State Management** | setState() |
+| **Storage** | In-memory (temporary) |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Prerequisites
-Make sure Flutter SDK is installed and configured properly:
+### 1️⃣ Install Flutter
+Make sure Flutter SDK is installed:
 ```bash
 flutter doctor
