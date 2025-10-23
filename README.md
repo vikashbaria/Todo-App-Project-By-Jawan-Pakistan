@@ -1,16 +1,46 @@
-# todo_app
+# 📝 ToDo App
 
-A new Flutter project.
+A beautifully designed **Flutter ToDo app** with task management features — including **priority levels, time tracking, and a clean modern UI**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Add Task | Task List | Task Details |
+|-----------|------------|--------------|
+| ![Add Screen](screenshots/add_task.png) | ![List Screen](screenshots/task_list.png) | ![Details Screen](screenshots/task_details.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎬 App Preview (Video)
+
+[![Watch the video](screenshots/video_thumbnail.png)](https://youtu.be/your_video_link_here)
+
+---
+
+## ✨ Features
+
+✅ Add, edit, and delete tasks  
+✅ Select priority: Low, Medium, or High  
+✅ Set time range (From – To) for each task  
+✅ Automatically saves entered data  
+✅ Responsive, elegant Flutter UI design  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **State Management:** setState()  
+- **Local Storage:** In-memory (temporary)  
+- **UI Design:** Material 3  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Prerequisites
+Make sure Flutter SDK is installed and configured properly:
+```bash
+flutter doctor
