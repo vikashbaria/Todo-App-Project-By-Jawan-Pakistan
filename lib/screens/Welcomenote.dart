@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/global%20widgets/widgets.dart';
 
 class Welcomenote extends StatefulWidget {
   const Welcomenote({super.key});
@@ -38,56 +39,39 @@ class _WelcomenoteState extends State<Welcomenote> {
             ),
             SizedBox(height: 20),
             Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
-                  height: 190,
-                  width: 150,
-                  decoration: BoxDecoration(
-                    color: Color(0xFFA6A6A6),
-                    borderRadius: BorderRadius.all(Radius.circular(12)),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.only(
-                      top: 10,
-                      left: 10,
-                      right: 10,
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Align(
-                          alignment: AlignmentGeometry.bottomRight,
-                          child: Icon(
-                            Icons.mobile_off_rounded,
-                            color: Color(0xFFC7C7C7),
-                          ),
-                        ),
-                        Text(
-                          "2 hours Ago",
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Color(0xFFDADADA),
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        Text("Mobile App UI Design"),
-                        Text("Mobile App UI Design"),
-                      ],
-                    ),
-                  ),
+                cardCustom(
+                  icon: Icons.mobile_off_rounded,
+                  timeAgo: "2 hours Ago",
+                  title: "Mobile App\nUI Design",
+                  subtitle: "using Figma and other tools",
                 ),
-
+                cardCustom(
+                  icon: Icons.camera_alt_outlined,
+                  timeAgo: "4 hours Ago",
+                  title: "Capture sun\nRise Shots",
+                  subtitle: "using Figma and other tools",
+                ),
+              ],
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "My Tasks ",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                ),
                 Container(
-                  margin: EdgeInsets.only(left: 40),
-                  height: 190,
-                  width: 150,
-                  decoration: BoxDecoration(
-                    color: Color(0xFFA6A6A6),
-                    borderRadius: BorderRadius.all(Radius.circular(12)),
+                  decoration: const BoxDecoration(
+                    color: Color(0xFF00BA00),
+                    shape: BoxShape.circle,
                   ),
-                  child: Column(children: []),
+                  child: IconButton(
+                    icon: const Icon(Icons.add, color: Colors.white),
+                    onPressed: () {},
+                  ),
                 ),
               ],
             ),
